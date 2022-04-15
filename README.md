@@ -17,6 +17,9 @@
 
 Have you ever wanted to simulate dead pixels on a web page? I can't imagine why.
 
+Here, [have a demo and kill some
+pixels](https://searls.github.io/pixel-killer/).
+
 ## Install
 
 ```
