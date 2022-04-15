@@ -53,11 +53,19 @@ pixelKiller.killPixelAtScreenPosition(100, 100)
 
 ### killRandomPixelOnWindow()
 
-Invokes `killPixelAtWindowPosition` at a random location on the window.
+Invoke `killPixelAtWindowPosition` at a random location on the window:
+
+```js
+pixelKiller.killRandomPixelOnWindow()
+```
 
 ### killRandomPixelOnScreen()
 
-Invokes `killPixelAtScreenPosition` at a random location on the screen.
+Invoke `killPixelAtScreenPosition` at a random location on the screen:
+
+```js
+pixelKiller.killRandomPixelOnScreen()
+```
 
 ### reset()
 
