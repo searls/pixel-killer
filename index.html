@@ -1,23 +1,23 @@
 <body style="background-color: #333; min-height: 3000px">
-<button id="killWindow">Kill pixel in window</button>
-<button id="killScreen">Kill pixel on screen</button>
-<button id="reset">Reset</button>
+  <button id="killWindow">Kill pixel in window</button>
+  <button id="killScreen">Kill pixel on screen</button>
+  <button id="reset">Reset</button>
 
-<script>
-  window.module = {}
-</script>
-<script src="index.js"></script>
-<script>
-  const pixelKiller = module.exports
+  <script>
+    window.module = {}
+  </script>
+  <script src="index.js"></script>
+  <script>
+    const pixelKiller = module.exports
 
-  document.querySelector('#killWindow').addEventListener('click', (e) => {
-    pixelKiller.killRandomPixelOnWindow()
-  })
-  document.querySelector('#killScreen').addEventListener('click', (e) => {
-    pixelKiller.killRandomPixelOnScreen()
-  })
-  document.querySelector('#reset').addEventListener('click', (e) => {
-    pixelKiller.reset()
-  })
-</script>
+    document.querySelector('#killWindow').addEventListener('click', (e) => {
+      pixelKiller.killRandomPixelOnWindow()
+    })
+    document.querySelector('#killScreen').addEventListener('click', (e) => {
+      pixelKiller.killRandomPixelOnScreen()
+    })
+    document.querySelector('#reset').addEventListener('click', (e) => {
+      pixelKiller.reset()
+    })
+  </script>
 </body>
