@@ -1,0 +1,21 @@
+{
+  "name": "pixel-killer",
+  "version": "0.0.1",
+  "description": "Makes pixels in a browser window look like they're dead",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 --cors --o index.html",
+    "test": "standard --fix"
+  },
+  "keywords": [
+    "dead pixel",
+    "stuck pixel",
+    "why",
+    "pixel"
+  ],
+  "author": "Justin Searls <searls@gmail.com>",
+  "license": "GPL-3",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
