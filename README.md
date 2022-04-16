@@ -33,7 +33,7 @@ from 'pixel-killer'`.
 
 ### killPixelAtWindowPosition(x, y)
 
-This function will kill a pixel currently at the given **window coordinates**
+This function will kill a pixel at the given **window coordinates**
 and will update as the window is scrolled, moved, and resized:
 
 ```js
@@ -42,9 +42,9 @@ pixelKiller.killPixelAtWindowPosition(100, 100)
 
 ### killPixelAtScreenPosition(x, y)
 
-This function will kill a pixel currently at the given **screen coordinates**
+This function will kill a pixel at the given **screen coordinates**
 (even if that pixel is outside the current window; if the window is moved over
-that screen position, the dead pixel will be rendered). It will also update as
+that screen position, the dead pixel will then be rendered). It will also update as
 the window is scrolled, moved, and resized:
 
 ```js
